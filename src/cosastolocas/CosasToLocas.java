@@ -9,9 +9,11 @@ public class CosasToLocas {
         int o = 4; 
         int i=2;
         double a=9.1;
+        int j = 0;
+        int suma = 0;
         
-       /*
-        //variable de la que dependera el resultado
+       
+       //variable de la que dependera el resultado
        //bucle
        while(i<4000){
        i++;
@@ -63,7 +65,7 @@ public class CosasToLocas {
        else{
        System.out.println("Nota no valida");
        }
-          */
+          
        int año= 1998;
        switch (año % 12){
            case 0:System.out.println("Mono");
@@ -90,8 +92,30 @@ public class CosasToLocas {
            break;
            case 11:System.out.println("Cabra");
            break;
-           
+           //moar bucles
        }
+       //sumatorio while
+       while(j<9){
+            j++;
+            suma=j+suma;
+            //System.out.println(i);
+            System.out.println(suma);
+       }
+       //do while
+       do{
+            j++;
+            suma=j+suma;
+            //System.out.println(i);
+            System.out.println(suma);
+       }
+       while(j<9);
+        
+       //for
+       for(int p =0; p<6;p++){
+            suma=p+suma;
+            System.out.println(suma);
+       }
+       
                
     }
     
