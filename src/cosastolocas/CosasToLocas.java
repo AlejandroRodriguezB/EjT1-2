@@ -16,7 +16,18 @@ public class CosasToLocas {
         Cosa2 cosa = new Cosa2();
         int num;
         num =cosa.llegirSencer();
-       
+      
+        //Decide si los numeros introducido son  par o impar
+        while(num !=0){
+            if(num%2==0){
+                System.out.println( num+ " Es par");
+            }
+            else{
+                System.out.println(num + " Es impar");
+            }
+            num =cosa.llegirSencer();
+        }
+       //suma de numeros introducidos por teclado
         while(num !=0){
         suma=num+suma;
         num =cosa.llegirSencer();
