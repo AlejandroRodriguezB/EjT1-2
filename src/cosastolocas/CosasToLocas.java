@@ -13,6 +13,15 @@ public class CosasToLocas {
         int suma = 0;
         int sumatorio= 5;
         
+        Cosa2 cosa = new Cosa2();
+        int num;
+        num =cosa.llegirSencer();
+       
+        while(num !=0){
+        suma=num+suma;
+        num =cosa.llegirSencer();
+        }
+        System.out.println(suma);
        
        //variable de la que dependera el resultado
        //bucle
