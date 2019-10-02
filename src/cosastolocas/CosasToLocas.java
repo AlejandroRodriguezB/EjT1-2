@@ -66,7 +66,7 @@ public class CosasToLocas {
        else{
        System.out.println("Nota no valida");
        }
-          
+       //En el   
        int año= 1998;
        switch (año % 12){
            case 0:System.out.println("Mono");
@@ -115,7 +115,7 @@ public class CosasToLocas {
             suma=p+suma;
             System.out.println(suma);
        }
-       //sacar muchor 0 en linea sin tener que escribirlos tu
+       //sacar muchos 0 en linea sin tener que escribirlos tu
        for(int p = 0; p<=10; p++){
            
            System.out.print("0");
@@ -124,6 +124,19 @@ public class CosasToLocas {
        for(int p = 0; p<=10; p++){
            for(int w=0; w<=10;w++){
                System.out.print("0");
+           }
+           System.out.println();
+       }
+      //"matriz" con 1 en la diagonal 
+      for(int p = 0; p<=4; p++){
+           for(int w=0; w<=4;w++){
+               
+               if(w==p){
+               System.out.print("1");
+               }
+               else{
+               System.out.print("0");
+               }
            }
            System.out.println();
        }
