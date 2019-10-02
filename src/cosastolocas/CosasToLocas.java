@@ -66,29 +66,29 @@ public class CosasToLocas {
           */
        int año= 1998;
        switch (año % 12){
-           case 0:System.out.println("Rata");
+           case 0:System.out.println("Mono");
            break;
-           case 1:System.out.println("Buey");
+           case 1:System.out.println("Gallo");
            break;
-           case 2:System.out.println("Tigre");
+           case 2:System.out.println("Perro");
            break;
-           case 3:System.out.println("Conejo");
+           case 3:System.out.println("Cerdo");
            break;
-           case 4:System.out.println("Dragón");
+           case 4:System.out.println("Rata");
            break;
-           case 5:System.out.println("Serpiente");
+           case 5:System.out.println("Buey");
            break;
-           case 6:System.out.println("Caballo");
+           case 6:System.out.println("Tigre");
            break;
-           case 7:System.out.println("Cabra");
+           case 7:System.out.println("Conejo");
            break;
-           case 8:System.out.println("Mono");
+           case 8:System.out.println("Dragón");
            break;
-           case 9:System.out.println("Gallo");
+           case 9:System.out.println("Serpiente");
            break;
-           case 10:System.out.println("Perro");
+           case 10:System.out.println("Caballo");
            break;
-           case 11:System.out.println("Cerdo");
+           case 11:System.out.println("Cabra");
            break;
            
        }
