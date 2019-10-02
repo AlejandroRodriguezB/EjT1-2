@@ -93,7 +93,6 @@ public class CosasToLocas {
            break;
            case 11:System.out.println("Cabra");
            break;
-           //moar bucles
        }
        //sumatorio while
        while(j<sumatorio){
@@ -102,7 +101,7 @@ public class CosasToLocas {
             //System.out.println(i);
             System.out.println(suma);
        }
-       //do while
+       //do while de sumatorio
        do{
             j++;
             suma=j+suma;
@@ -111,12 +110,23 @@ public class CosasToLocas {
        }
        while(j<sumatorio);
         
-       //for
+       //for de sumatorio
        for(int p =0; p<sumatorio;p++){
             suma=p+suma;
             System.out.println(suma);
        }
-       
+       //sacar muchor 0 en linea sin tener que escribirlos tu
+       for(int p = 0; p<=10; p++){
+           
+           System.out.print("0");
+       }
+       //sacar una "matriz" de o sin tener que escribirlos tu 
+       for(int p = 0; p<=10; p++){
+           for(int w=0; w<=10;w++){
+               System.out.print("0");
+           }
+           System.out.println();
+       }
                
     }
     
