@@ -11,6 +11,7 @@ public class CosasToLocas {
         double a=9.1;
         int j = 0;
         int suma = 0;
+        int sumatorio= 5;
         
        
        //variable de la que dependera el resultado
@@ -95,7 +96,7 @@ public class CosasToLocas {
            //moar bucles
        }
        //sumatorio while
-       while(j<9){
+       while(j<sumatorio){
             j++;
             suma=j+suma;
             //System.out.println(i);
@@ -108,10 +109,10 @@ public class CosasToLocas {
             //System.out.println(i);
             System.out.println(suma);
        }
-       while(j<9);
+       while(j<sumatorio);
         
        //for
-       for(int p =0; p<6;p++){
+       for(int p =0; p<sumatorio;p++){
             suma=p+suma;
             System.out.println(suma);
        }
