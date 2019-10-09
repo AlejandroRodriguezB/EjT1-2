@@ -17,6 +17,24 @@ public class CosasToLocas {
         int num;
         num =cosa.llegirSencer();
       
+      
+        //divisonres de un numero que tu das
+        int begin=num;
+        for(int w =num;w>0;w--){
+        if (num%w==0){
+            System.out.println(w);
+            }
+        }
+        
+        
+        //lo mismo con while
+        while(0<begin){
+            if (num%begin==0){
+            System.out.println(begin);
+            }
+        begin--;
+        
+        }
         //Decide si los numeros introducido son  par o impar
         while(num !=0){
             if(num%2==0){
