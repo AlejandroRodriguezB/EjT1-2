@@ -13,6 +13,23 @@ public class CosasToLocas {
         int suma = 0;
         int sumatorio= 5;
       
+      //primeros 100 numeros primos
+      while(suma<=100){
+        boolean primo = true;
+        //saber si un numero es primo
+        for(int w =j-1;primo && w>1;w--){
+            if (j%w==0){
+                primo = false;
+            break;
+            }    
+        }
+        if(primo && j!=1){
+        System.out.println(j+" es primo y esta en la posición nª "+ suma);
+        suma++;
+        }
+        j++;
+        }
+      
       //numeros primos de donde tu quiras al 1000
       while(j<100){
         boolean primo = true;
