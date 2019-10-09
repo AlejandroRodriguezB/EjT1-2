@@ -12,13 +12,45 @@ public class CosasToLocas {
         int j = 0;
         int suma = 0;
         int sumatorio= 5;
-        
+      
+      //numeros primos de donde tu quiras al 1000
+      while(j<100){
+        boolean primo = true;
+        //saber si un numero es primo
+        for(int w =j-1;primo && w>1;w--){
+            if (j%w==0){
+                primo = false;
+            break;
+            }    
+        }
+        if(primo && j!=1){
+        System.out.println(j+" es primo");
+        }
+        j++;
+        }
+      
         Cosa2 cosa = new Cosa2();
         int num;
         num =cosa.llegirSencer();
       
+      //saber si el valor introducido es primo
+        boolean primo = true;
+        //saber si un numero es primo
+        for(int w =num-1;primo && w>1;w--){
+            if (num%w==0){
+                primo = false;
+            break;
+            }    
+        }
+        if(primo && num!=1){
+        System.out.println("primo");
+        }
+        else{
+        System.out.println("no primo");
+        }
       
-        //divisonres de un numero que tu das
+      
+        //divisores de un numero que tu das
         int begin=num;
         for(int w =num;w>0;w--){
         if (num%w==0){
