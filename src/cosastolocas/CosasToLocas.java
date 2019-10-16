@@ -12,6 +12,74 @@ public class CosasToLocas {
         int j = 0;
         int suma = 0;
         int sumatorio= 5;
+      char letra;
+        int conta_a=0;
+        int conta_e=0;
+        int conta_i=0;
+        int conta_o=0;
+        int conta_u=0;
+      
+     //busca una vocal y la imprime junto con su siguente letra 
+      char letra;
+        letra= cosa.llegirCaracter();
+        
+        boolean vocal=true;
+        char letra_2=' ';    
+        
+        while(letra !='.' && vocal==true){
+            if(letra == 'a' || letra == 'e'|| letra == 'i'|| letra == 'o'|| letra == 'u'){
+                vocal=false;  
+                letra_2=letra;
+            }
+             
+           letra= cosa.llegirCaracter();
+        }
+        System.out.println(" primera letra= " + letra_2 + " segunda letra= " + letra);
+      
+      
+        letra= cosa.llegirCaracter();
+     /*   
+      //contador de letras desde teclado
+        while(letra !='.'){
+            if(letra == 'a' || letra == 'A'){
+                conta_a++;
+            }
+            else if(letra == 'e' || letra == 'E'){
+                conta_e++;
+            }
+            else if(letra == 'i' || letra == 'I'){
+                conta_i++;
+            }
+            else if(letra == 'o' || letra == 'O'){
+                conta_o++;
+            }
+            else if(letra == 'u' || letra == 'U'){
+                conta_u++;
+            }
+            letra= cosa.llegirCaracter();
+        }
+        System.out.println("a="+conta_a +" e="+ conta_e +" i="+ conta_i +" o="+ conta_o + " u="+conta_u);
+        
+        
+        
+        //contador de a desde teclado
+        while(letra !='.'){
+            if(letra == 'a' || letra == 'A'){
+                conta_a++;
+            }
+            letra= cosa.llegirCaracter();
+        }
+        System.out.println(conta_a);
+        
+        //contar vocales desde teclado
+        while(letra !='.'){
+            if(letra == 'a' || letra == 'e'|| letra == 'i'|| letra == 'o'|| letra == 'u'){
+                conta_a++;
+            }
+            letra= cosa.llegirCaracter();
+        }
+        System.out.println(conta_a);
+        */
       
       //primeros 100 numeros primos
       while(suma<=100){
