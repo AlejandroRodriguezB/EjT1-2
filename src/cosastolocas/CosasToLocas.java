@@ -19,6 +19,33 @@ public class CosasToLocas {
         int conta_o=0;
         int conta_u=0;
       
+      //menu sencillo
+      while(letra !='.'){
+            System.out.println("-----Menu-----");
+            System.out.println("'h' para hola");
+            System.out.println("'a' para adios");
+            System.out.println("'.' para salir");
+            System.out.println("---------------");
+            System.out.println("Insert letra");
+            letra= cosa.llegirCaracter();
+            if(letra == 'h' || letra == 'H'){
+                System.out.println(" ");
+                System.out.println("-->Hola");
+                System.out.println(" ");
+            }
+            else if(letra == 'a' || letra == 'A'){
+                System.out.println(" ");
+                System.out.println("-->Adios");
+                System.out.println(" ");
+            }
+            else{
+                System.out.println(" ");
+                System.out.println("-->No valido");
+                System.out.println(" ");
+            }
+            
+        }
+      
      //busca una vocal y la imprime junto con su siguente letra 
       char letra;
         letra= cosa.llegirCaracter();
