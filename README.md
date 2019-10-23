@@ -1,2 +1,3 @@
 # EjT1-2
-EjerciciosUIB
+EjerciciosUni
+By Alejandro Rodríguez B
