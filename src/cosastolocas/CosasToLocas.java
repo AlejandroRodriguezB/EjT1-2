@@ -19,6 +19,10 @@ public class CosasToLocas {
         int conta_o=0;
         int conta_u=0;
       
+      Cosa2 cosa = new Cosa2();
+        char letra;
+        letra=' ';
+      
       //menu sencillo
       while(letra !='.'){
             System.out.println("-----Menu-----");
@@ -45,7 +49,7 @@ public class CosasToLocas {
             }
             
         }
-      
+      /* 
      //busca una vocal y la imprime junto con su siguente letra 
       char letra;
         letra= cosa.llegirCaracter();
@@ -65,7 +69,7 @@ public class CosasToLocas {
       
       
         letra= cosa.llegirCaracter();
-     /*   
+       
       //contador de letras desde teclado
         while(letra !='.'){
             if(letra == 'a' || letra == 'A'){
